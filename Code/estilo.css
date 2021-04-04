@@ -1,0 +1,155 @@
+button{
+	background-color: #00A4CD;	
+}
+.clear{
+	clear: both;
+}
+.titulo{
+	text-align: center;
+	margin: 40px; 
+}
+.botao-table{
+	padding: 30px;
+
+}
+.botao{
+	text-align: center;
+	padding: 20px;
+	margin: 0px;
+}
+
+.btn-primary{
+	text-align: center;
+	color: blue;
+	padding: 20px;
+	margin: 0 auto;
+	width: 200px;
+	height: 40px;
+	vertical-align: bottom;
+	white-space: normal;
+	
+}
+
+.btn-secondary{
+	text-align: center;
+	color: blue;
+	padding: 20px;
+	margin: 0 auto;
+	width: 200px;
+	height: 40px;
+	vertical-align: bottom;
+	white-space: normal;
+}
+
+.caixa{
+	align-items: center;
+	border: solid black 1px;
+	padding: 10px;
+	width: 700px;
+}
+.img{
+	padding: 20px;
+	margin: 5px;
+}
+.img-produtos{
+	float: center;
+	margin: 30px;
+	
+}
+.logo{
+	text-align: left;
+}
+.cadastro_fun{
+	background-color: #DCDCDC;
+	text-align: center;
+	width: 400px;
+	padding: 20px;
+	margin: 30px 0px 20px 0px;
+}
+box{
+	background-color: #DCDCDC;
+	text-align: center;
+	width: 400px;
+	padding: 20px;
+	margin: 30px 0px 20px 0px;
+}
+
+.rodape{	
+	margin-top: 200px;
+	
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  }
+  body {
+	background: #e9e1c1;
+	margin: 0;
+	font-family: monospace;
+  }
+  h2 {
+	text-align: center;
+  }
+  a {color: #19838d;}
+  
+  .container {
+	margin: 50px auto;
+	padding-bottom: 25%;
+	width: 60%;
+	overflow: hidden;
+	border: 15px solid #fff;
+	position: relative;
+	display:block;
+	margin: 40px auto 40px;
+	box-shadow: 0 10px 10px #777;
+  }
+  
+  .photoWrapper {
+	position: absolute;
+	animation: round 16s infinite;
+	opacity: 0;
+	top: 0;
+	left: 0;
+  }
+  .photo {
+	height:auto;
+	width:100%;
+	
+  }
+  p.photoDescr {
+	background-color: #8e8e8e;
+	margin: 0;
+	padding: 5px;
+  }
+  
+  @keyframes round {
+	25% {
+	  opacity: 1;
+	}
+	40% {
+	  opacity: 0;
+	}
+  }
+  .photoWrapper:nth-child(1) {
+	animation-delay: 0s;
+  }
+  
+  .photoWrapper:nth-child(2) {
+	animation-delay: 5s;
+  }
+  
+  .photoWrapper:nth-child(3) {
+	animation-delay: 10s;
+  }
+  
+  .photoWrapper:nth-child(4) {
+	animation-delay: 15s;
+  }
+  @media (max-width: 600px) {
+	.container {
+	  width: 90%;
+	  padding-bottom: 50%;
+	}
+  }
